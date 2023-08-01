@@ -1,0 +1,7 @@
+Write username and password  then click login
+
+Do not press any button until Chrome closes automatically
+
+You can press any button when chrome  auto-closes
+
+Does not work without Chrome (You can change the web.driver for another browser)

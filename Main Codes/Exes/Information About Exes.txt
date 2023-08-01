@@ -1,0 +1,2 @@
+These exes are used to run the application without code.
+You can enter fast / medium / slow applications according to your internet speed.
