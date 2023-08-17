@@ -32,7 +32,7 @@ class InstagramThread(QThread):
 
         self.js_command(browser) # It does an automatic scroll feature to get the entire list of followers.
 
-        followers = browser.find_elements(By.CLASS_NAME, "x9f619.xjbqb8w.x1rg5ohu.x168nmei.x13lgxp2.x5pf9jr.xo71vjh.x1n2onr6.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.x1q0g3np.xqjyukv.x6s0dn4.x1oa3qoh.x1nhvcw1")
+        followers = browser.find_elements(By.CLASS_NAME, "_aacl._aaco._aacw._aacx._aad7._aade")
         #It gets the class information of all followers in the followers tab.
         followers_list = []
         for follower in followers:   #It assigns the text version of the data in all follower classes to the list
@@ -42,7 +42,7 @@ class InstagramThread(QThread):
         time.sleep(5)
 
         self.js_command(browser) # Enabling the automatic scroll feature to fetch the entire followers list.
-        followings = browser.find_elements(By.CLASS_NAME, "x9f619.xjbqb8w.x1rg5ohu.x168nmei.x13lgxp2.x5pf9jr.xo71vjh.x1n2onr6.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.x1q0g3np.xqjyukv.x6s0dn4.x1oa3qoh.x1nhvcw1")
+        followings = browser.find_elements(By.CLASS_NAME, "_aacl._aaco._aacw._aacx._aad7._aade")
         #Takipçiler sekmesindeki tüm takip edenlerin sınıfının bilgilerini alıyor.
         #It gets the class information off all followings in the followings tab.
         follows_list = []
